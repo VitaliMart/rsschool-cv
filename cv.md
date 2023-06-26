@@ -15,3 +15,14 @@
 ## **About me**
 
 I like to develop myself, take on difficult tasks, be helpful and friendly.
+
+## **Skills**
+
+JavaScript<br/>
+Cypress<br/>
+Jenkins<br/>
+SQL<br/>
+Git<br/>
+HTML<br/>
+CSS<br/>
+VC Code<br/>
