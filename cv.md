@@ -57,3 +57,9 @@ Red Rover School<br/>
 Learn.epam.com<br/>
 Portnov Computer School<br/>
 
+## **Languages**
+
+Russian - native speaker<br/>
+English - A2<br/>
+
+
