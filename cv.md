@@ -50,3 +50,10 @@ function arithmetic(a, b, operator){
 } 
 ```
 
+## **Education**
+
+Belarusian National Technical University<br/>
+Red Rover School<br/>
+Learn.epam.com<br/>
+Portnov Computer School<br/>
+
