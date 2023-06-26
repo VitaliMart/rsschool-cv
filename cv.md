@@ -11,3 +11,7 @@
 **GitHub:** [VitaliMart](https://github.com/VitaliMart)<br/>
 **Linkedin:** [Martsinhyk Vitali](https://by.linkedin.com/in/martsinchyk-vitali-8a47904a)<br/>
 **Codewars:** [Vitali.M](https://www.codewars.com/users/Vitali.M)<br/>
+
+## **About me**
+
+I like to develop myself, take on difficult tasks, be helpful and friendly.
