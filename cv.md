@@ -61,5 +61,3 @@ Portnov Computer School<br/>
 
 Russian - native speaker<br/>
 English - A2<br/>
-
-
