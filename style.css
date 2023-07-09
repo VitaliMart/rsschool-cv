@@ -1,0 +1,173 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #131212;
+  background-color: #c9d3eea1;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("assets/fonts/Roboto-Thin.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("assets/fonts/RobotoRegular.ttf");
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Как любой блочный элемент, контейнер захватывает всю ширину окна. 
+Так и происходит до тех пор, пока ширина окна не превышает 1440 пикселей,
+ если окно браузера больше, свойство max-widthограничивает ширину контейнера */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Убираем стандартные маркеры */
+.nav-list {
+  list-style: none;
+  background-color: #c4cee9ec;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* Добавляем отступы между списками событий */
+.nav-link {
+  padding: 0 70px;
+  line-height: 60px;
+}
+
+/* Чтобы прокрутка встречалась плавно, в cs-файле добавлено свойство */
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  transition: .5s;
+}
+
+.nav-link:hover {
+  color: #85aaf8;
+}
+
+
+/* Расположим секции в две колонки */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+/* Указать, что при уменьшении ширины экрана до 768px, секция будет занимать всю ширину, позволит медиазапрос */
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+/* стилизации заголовков*/
+.section-title {
+  font-size: 28px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #340366;
+}
+
+/* стилизации ссылок */
+.link {
+  text-decoration: none;
+  color: #875ac2;
+  transition: color 0.5s;
+}
+
+.link:hover {
+  color: #85aaf8;
+}
+
+.photo {
+  width: 25%;
+  object-fit: cover;
+}
+
+.figure-left {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: min-content;
+  background-color: #343336;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+/* footer */
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-footer {
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  color: rgba(14, 13, 13, 0.986);
+  background-color: #abbbe6ec;
+  display: grid;
+}
+
+.page-footer {
+  display: block;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer__rsschool {
+  padding: 0 200px;
+  line-height: 15px;
+}
+
+.footer__github {
+  padding: 0 200px;
+  line-height: 15px;
+  text-decoration: none;
+}
+
+.footer__year {
+  padding: 0 200px;
+  line-height: 15px;
+}
